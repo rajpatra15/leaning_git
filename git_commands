@@ -1,0 +1,45 @@
+git commands :
+
+git --version : tells the version of git 
+git --config --global user.name "rajeshwar.p"
+git --config --global user.email "rajeshwarpatra@gmail.com"
+
+to echo the same :
+git --config --global user.name
+
+to make a dir : mkdir
+to change dir : cd 
+
+to make a directory as the git directory 
+git init : it initializes an empty git repoistery
+
+git status : tells the status of local git repoistery 
+
+staging area : an area where locally changed files are kept before commiting to git repoistery 
+
+git add Diff.java : moves the particular files
+git add . : moves all files in git repositery 
+
+commit : git commit -m "message"
+
+git log : logs all the commits in git repositery 
+
+git checkout "hashcode" : moves between different version
+
+git branch "branchname": creates a new branch
+
+git merge : merges a particular branch code to its parent 
+
+to ignore a particular file : 
+
+1. create the file 
+2. create a file .gitignore and add the file name inside this gitignore file 
+
+Github :
+
+we need to create our account in github and the use generate token using developer settings 
+
+we then create a repoistery in github with main branch and add the following commands to push local git repositery into the main branch 
+
+git push -u origin multiply_feature(name of local branch)
+
