@@ -41,5 +41,7 @@ we need to create our account in github and the use generate token using develop
 
 we then create a repoistery in github with main branch and add the following commands to push local git repositery into the main branch 
 
-git push -u origin multiply_feature(name of local branch)
+git remote add origin REMOTE-URL (url of the remte branch)
+git remote -v
+git push -u origin LOCAL_BRANCH (name of local branch)
 
